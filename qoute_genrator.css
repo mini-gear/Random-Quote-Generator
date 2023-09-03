@@ -1,0 +1,65 @@
+/* Base styles for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e272e; /* Dark Blue-Gray */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ecf0f1; /* Light Gray */
+}
+
+/* Container for the quote and button */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #34495e; /* Dark Blue */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the heading */
+h1 {
+    color: #ecf0f1; /* Light Gray */
+    font-size: 24px;
+}
+
+/* Styling for the quote box */
+.quote-box {
+    background-color: #2c3e50; /* Slightly Darker Blue */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the quote text */
+#quote {
+    font-size: 20px;
+    margin: 0;
+    color: #ecf0f1; /* Light Gray */
+}
+
+/* Styling for the author text */
+#author {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #bdc3c7; /* Lighter Gray */
+}
+
+/* Styling for the "Generate Quote" button */
+#new-quote {
+    background-color: #3498db; /* Bright Blue */
+    color: #ecf0f1; /* Light Gray */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+#new-quote:hover {
+    background-color: #2980b9; /* Slightly Darker Blue */
+}
